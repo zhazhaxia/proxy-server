@@ -11,5 +11,5 @@
 
 
 // gfhazzz
-jsqmt.qq.com/cdn_djl.js ./cdn_djl.js
-ctc.qzonestyle.gtimg.cn/utp/dnsgetForMusic.js dnsgetForMusic.js
+jsqmt.qq.com/cdn_djl.js ./rule/cdn_djl.js
+ctc.qzonestyle.gtimg.cn/utp/dnsgetForMusic.js ./rule/dnsgetForMusic.js
