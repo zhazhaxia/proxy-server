@@ -8,7 +8,7 @@ var http = require('http'),
 	fs = require('fs');
 
 //获取匹配规则
-var ruleFileData = fs.readFileSync('rule.txt').toString()//.split(/\n|\r/g).trimNull();
+var ruleFileData = fs.readFileSync('rule/rule.txt').toString()//.split(/\n|\r/g).trimNull();
 /*
 数组空，或者字符串前面是‘//’注释的就不要
 */
