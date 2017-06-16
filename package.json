@@ -1,0 +1,26 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": ">需要安装两个模块   \r 一个是supervisor，用于启动proxy.js  \r 一个是request，用来请求http资源",
+  "main": "proxy.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhazhaxia/proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhazhaxia/proxy-server/issues"
+  },
+  "homepage": "https://github.com/zhazhaxia/proxy-server#readme"
+}
