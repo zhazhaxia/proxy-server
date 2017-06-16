@@ -24,7 +24,7 @@ ruleFileData = ruleFileData.split(/\n|\r/g).trimNull();
 
 function notFound (res) {
 	res.writeHead(404, 'text/plain');
-	res.end('404 not found');
+	res.end('404 not found!');
 }
 function serverCallback(req, res){
 	var b_url = url.parse(req.url,true);//获取请求的http url信息并格式化
@@ -34,7 +34,7 @@ function serverCallback(req, res){
 	// console.log(rule);
 
 	// console.log(req.method)
-
+	console.log('url--------:'+req.url)
 	if(!b_url.hostname) notFound(res);
 
 	if (method === 'GET') {
@@ -96,7 +96,7 @@ function serverCallback(req, res){
 }
 var http_server = http.createServer(serverCallback);
 http_server.listen(3000);
-// console.log('server running http://127.0.0.1:3000/');
+console.log('server running http://127.0.0.1:3000/');
 
 function matchRule(rule){
 	//return 0;
